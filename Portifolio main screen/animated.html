@@ -1,0 +1,150 @@
+<html>
+ <head>
+  <title>Satya Rakesh</title>
+  <link rel="icon" href="C:\Users\SATYA\Downloads\favicon_io\favicon.ico"></link>
+  <style>
+  *
+  {
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	font-family:'poppins',sans-serif;
+  }
+   .header
+  {
+  width:100px;
+  height:100vh;
+  background-image:linear-gradient(rgba(5,0,136,0.5),rgba(5,0,136,0.5)),url('rletter.jpeg');
+  background-position:center;
+  background-size:cover;
+  width:100%;
+  overflow-x:hidden;
+  }nav
+  {
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 8%;
+  transition:background 1s;
+  }
+  nav .logo
+  {
+  display:flex;
+  align-items:center;
+  font-size:26px;
+  font-weight:600;
+  color:#fff;
+  }
+  nav ul li
+  {
+  display:inline-block;
+  list-style:none;
+  margin:10px 20px;
+  }
+  nav ul li a
+  {
+  text-decoration:none;
+  color:white;
+  font-weight:600;
+  }
+  nav:hover
+  {
+  background:#fff;
+  box-shadow:0px 0px 10px black;
+  }
+  nav:hover .logo
+  {
+ color:#333;
+  }
+  nav:hover ul li a
+  {
+  color:#333;
+  }
+  .content
+  {
+  margin-top:9%;
+  margin-left:9%;
+  color:#fff;
+  }
+  .content h1
+  {
+  font-size:120px;
+  line-height:140px;
+  font-weight:600;
+  }
+  .content p
+  {
+  max-width:500px;
+  line-height:28px;
+  opacity:0;
+  }
+  .links
+  {
+  margin-top:30px;
+  opacity:0;
+  }
+  .links a
+  {
+  color:#fff;
+  text-decoration:none;
+  display:inline-block;
+  }
+  .btn
+  {
+  border:2px solid white;
+  padding:10px 30px;
+  border-radius:30px;
+  margin-right:15px;
+  }
+  .slide-left
+  {
+  animation:slideleft 1s linear forwards;
+  }
+  @keyframes slideleft
+  {
+	0%
+	{
+	transform:translate(100px);
+	opacity:0;}
+	100%
+	{
+	transform:translate(0px);
+	opacity:1;
+	}
+  }
+  p.slide-left
+  {
+  animation-delay:1s;
+  }
+  .links.slide-left
+  {
+   animation-delay:2s;
+  }
+  </style>
+ </head>
+ <body>
+	<div class="header">
+		<nav>
+			<div class="logo">
+				<span>SATYA</span>
+			</div>
+			<ul class="header2">
+				<li class="li3"><a href="C:\Users\SATYA\Desktop\html yt\shopping web page\homepage.html">shopping</a></li>
+				<li class="li3"><a href="hover.html">Hover</a></li>
+				<li class="li3"><a href="faq.html">Social media</a></li>
+				<li class="li3"><a href="C:\Users\SATYA\Desktop\html yt\satya\index.html">Sliding</a></li>
+				<li class="li3"><a href="C:\Users\SATYA\Desktop\css class\14-12cssicon.html">Brand</a></li>
+			</ul>
+		</nav>
+		<div class="content">
+			<h1 class="slide-left">This is<br>Satya Rakesh :)</h1>
+			<p class="slide-left">Here i'm designed a animated page with a background image of letter R.</p>
+			<div class="links slide-left">
+				<a href="#" class="btn">Learn More</a>
+				<a href="#">Contact</a>
+			</div>
+		</div>
+	</div>
+ </body>
+</html>
